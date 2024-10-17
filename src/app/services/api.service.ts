@@ -66,7 +66,7 @@ import { Observable } from 'rxjs';
 export class ApiService {
   constructor(private httpClient: HttpClient) {}
 
-  baseUrl = 'https://ecommerceapplication-backend.onrender.com';
+  baseUrl = 'https://nodejs.ecommerceweb.shop';
   // baseUrl = 'http://localhost:3000';
   // baseUrl = 'http://13.235.204.121:4000'
 
