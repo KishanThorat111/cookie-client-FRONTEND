@@ -32,4 +32,4 @@ jobs:
         run: docker rm -f cookie-client-frontend-container  
         
       - name: Run docker container
-        run: docker run -d -p 443:443 --name cookie-client-frontend-container kishanthorat111/cookie-client-frontend
+        run: docker run -d -p 4200:80 --name cookie-client-frontend-container kishanthorat111/cookie-client-frontend
